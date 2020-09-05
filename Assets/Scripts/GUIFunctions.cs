@@ -20,4 +20,9 @@ public class GUIFunctions : MonoBehaviour
         numOfPresses++;
         pressedText.text = "Times Pressed: " + numOfPresses;
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }
